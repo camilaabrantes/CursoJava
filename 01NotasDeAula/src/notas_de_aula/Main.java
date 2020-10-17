@@ -193,6 +193,13 @@ public class Main {
 		System.out.println("Month: " + month);
 
 		sc.close();
+		
+		/*
+		 * Classe abstrattas não podem ser instanciadas
+		 * Metodos abstratos são metodos que não possuem implementação
+		 * um metodo abstrato só pode existir em uma classe abstrata
+		 * 
+		 */
 
 	}
 
