@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -174,6 +175,19 @@ public class Main {
 		System.out.println("y1: " + sdf3.format(y1));
 		System.out.println("y2: " + sdf3.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
+		
+		/*
+		 Date data1;
+		 Date data2;
+		 
+		 log diff = data1.getTime() - data2.getTime(); (retorna a diferença entre as duas datas em milissengudos
+		                                                usar variavel tipo long)
+		 TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS)  -- retorna a conversão do valor em milissegundos em dias
+		 
+		 data1.after(data2)  retorna true se a data1 for depois da data2
+		 data1.before(data2) retorna true se a data1 for antes da data2
+		 */
+		
 		
 		//Usando o calendar
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
