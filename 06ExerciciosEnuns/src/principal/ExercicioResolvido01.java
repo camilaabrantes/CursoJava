@@ -9,6 +9,7 @@ import java.util.Scanner;
 import entities.Departamento;
 import entities.HourContract;
 import entities.Worker;
+import entities.enuns.OrderStatus;
 import entities.enuns.WorkerLevel;
 
 public class ExercicioResolvido01 {
@@ -30,7 +31,7 @@ public class ExercicioResolvido01 {
 		System.out.println("Nome:");
 		String nome =sc.nextLine();
 		System.out.println("Level:");
-		WorkerLevel level = WorkerLevel.JUNIOR;
+		WorkerLevel level = WorkerLevel.valueOf(sc.next());
 		System.out.println("Salario Base:");
 		Double salarioBase =sc.nextDouble();
 		Worker worker  = new Worker(nome, level, salarioBase, new Departamento(nomeDepartamento));

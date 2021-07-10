@@ -201,5 +201,6 @@ public class Exercicio02EstruturaCondicional {
 	
 	System.out.println(mensagem);
 	
-	}
+	sc.close();
+	}	
 }

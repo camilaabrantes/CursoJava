@@ -33,7 +33,7 @@ public class ExercicioResolvido01 {
 		 Account acc = new Account(1001, "Alex", 0.0);
 		 BusinessAccount acc4 = (BusinessAccount) acc;
 		 
-		 para não ter erros na execução do programa use o instaceof para verificar se oobjeto é instacia da subclasse
+		 para não ter erros na execução do programa use o instaceof para verificar se oobjeto é instancia da subclasse
 		 */
 		Account acc = new Account(1001, "Alex", 0.0);
 		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
