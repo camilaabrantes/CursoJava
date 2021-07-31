@@ -49,7 +49,11 @@ public class Program {
 				System.out.println(produto.getNome() + "," + produto.calculaSoma());
 				bw.write(produto.getNome() + "," + String.format("%.2f", produto.calculaSoma()));
 				bw.newLine();
-			}						
+			}
+			
+			System.out.println("getPath: " + fileLeitura.getPath());
+			System.out.println("getParent: " + fileLeitura.getParent());
+			System.out.println("getName: " + fileLeitura.getName());
 		}
 		catch (FileNotFoundException e) {
 			System.out.println("Error 1: " + e.getMessage());
