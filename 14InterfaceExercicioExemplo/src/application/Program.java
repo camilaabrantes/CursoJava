@@ -11,6 +11,11 @@ import entities.Employee;
 
 public class Program {
 	public static void main(String[] args) {
+		/*
+		 Faça um programa para ler um arquivo contendo nomes de pessoas (um nome por
+		linha), armazenando-os em uma lista. Depois, ordenar os dados dessa lista e mostra-los
+		ordenadamente na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
+		 */
 		List<Employee> list = new ArrayList<>();
 		String path = "C:\\Users\\cliente\\Documents\\Cursos\\Java\\Sistema-Xadrez\\in.csv";
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
